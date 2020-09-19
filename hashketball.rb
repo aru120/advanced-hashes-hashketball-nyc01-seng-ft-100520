@@ -206,7 +206,7 @@ def big_shoe_rebounds
       if player[:shoe] > big_shoe
         final = player[:rebounds]
    end
-  
+  end
   end
   return final
 end
