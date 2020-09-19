@@ -208,8 +208,9 @@ def big_shoe_rebounds
         binding.pry
    end
   end
+    return final
   end
-  return final
+
 end
 
 # num_points_scored("Kemba Walker")
