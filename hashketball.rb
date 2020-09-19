@@ -203,6 +203,7 @@ def big_shoe_rebounds
     value.each do |player|
     binding.pry
   end
+  end
 end
 
 # num_points_scored("Kemba Walker")
