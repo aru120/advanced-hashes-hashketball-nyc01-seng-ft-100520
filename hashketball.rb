@@ -205,12 +205,11 @@ def big_shoe_rebounds
     value[:players].each do |player|
       if player[:shoe] > big_shoe
         final = player[:rebounds]
-       
-   end
+     end
   end
-    return final
+    
   end
-
+return final
 end
 
 # num_points_scored("Kemba Walker")
