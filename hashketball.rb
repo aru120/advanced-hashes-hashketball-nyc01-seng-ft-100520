@@ -200,13 +200,16 @@ end
 
 def big_shoe_rebounds
   big shoe = 0
-  final 
+  
   game_hash.each do |key,value|
     value[:players].each do |player|
       if player[:shoe] > big shoe
-    binding.pry
+        final = player[:rebounds]
+ 
   end
+  
   end
+  return final
 end
 
 # num_points_scored("Kemba Walker")
